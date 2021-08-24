@@ -1,0 +1,23 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Slides
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+```{r, echo = FALSE, results = "asis"}
+(function(x) cat(sprintf("\n  * [%s](https://m.canouil.fr/slides/%s)\n", x, x)))(
+  list.files(here::here(), pattern = "^[0-9]{8}-", recursive = FALSE)
+)
+```
