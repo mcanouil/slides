@@ -6,6 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+-   [20160211-longitudinal-genetic-modelling](https://m.canouil.fr/slides/20160211-longitudinal-genetic-modelling)
+
+-   [20170929-phd-defense](https://m.canouil.fr/slides/20170929-phd-defense)
+
 -   [20190121-joint-model-snp](https://m.canouil.fr/slides/20190121-joint-model-snp)
 
 -   [20190906-nacho](https://m.canouil.fr/slides/20190906-nacho)
