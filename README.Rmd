@@ -17,7 +17,13 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 ```{r, echo = FALSE, results = "asis"}
-(function(x) cat(sprintf("\n  * [%s](https://m.canouil.fr/slides/%s)\n", x, x)))(
+(function(x) {
+  cat(ifelse(
+    test = grepl("\\.html$", list.files(x)),
+    sprintf("\n  * [%s](https://m.canouil.fr/slides/%s)\n", x, x),
+    sprintf("\n  * [%s](https://github.com/mcanouil/slides/tree/main/%s)\n", x, x)
+  ))
+})(
   list.files(here::here(), pattern = "^[0-9]{8}-", recursive = FALSE)
 )
 ```
