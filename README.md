@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![License](https://img.shields.io/github/license/mcanouil/slides)](LICENSE)
+[![render-readme](https://github.com/mcanouil/slides/actions/workflows/render-readme.yaml/badge.svg)](https://github.com/mcanouil/slides/actions/workflows/render-readme.yaml)
 <!-- badges: end -->
 
   - [20160211-longitudinal-genetic-modelling](20160211-longitudinal-genetic-modelling)
