@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
   cat(ifelse(
     test = grepl("\\.html$", list.files(x)),
     sprintf("\n  * [%s](https://m.canouil.fr/slides/%s)\n", x, x),
-    sprintf("\n  * [%s](https://github.com/mcanouil/slides/tree/main/%s)\n", x, x)
+    sprintf("\n  * [%s](%s)\n", x, x)
   ))
 })(
   list.files(here::here(), pattern = "^[0-9]{8}-", recursive = FALSE)
