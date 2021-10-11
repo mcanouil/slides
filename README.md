@@ -4,6 +4,8 @@
 # Slides
 
 <!-- badges: start -->
+
+[![License](https://img.shields.io/github/license/mcanouil/slides)](LICENSE)
 <!-- badges: end -->
 
 -   [20160211-longitudinal-genetic-modelling](https://github.com/mcanouil/slides/tree/main/20160211-longitudinal-genetic-modelling)
