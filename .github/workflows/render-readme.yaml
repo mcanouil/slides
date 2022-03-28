@@ -18,8 +18,11 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Install rmarkdown, data.table, and here
-        run: Rscript -e 'install.packages(c("rmarkdown", "here"), Ncpus = 2)'
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          package: |
+            any::rmarkdown
+            any::here
 
       - name: Render README
         run: Rscript -e 'rmarkdown::render("README.Rmd", output_options = list(html_preview = FALSE))'
