@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 (function(x) {
   cat(ifelse(
     test = grepl("\\.html$", list.files(x)),
-    sprintf("\n  * [%s](https://m.canouil.fr/slides/%s)\n", x, x),
+    sprintf("\n  * [%s](https://m.canouil.dev/slides/%s)\n", x, x),
     sprintf("\n  * [%s](%s)\n", x, x)
   ))
 })(
